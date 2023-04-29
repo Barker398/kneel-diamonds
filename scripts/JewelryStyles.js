@@ -6,7 +6,7 @@ document.addEventListener(
     "change",
     (event) => {
         if (event.target.name === "style")
-        setStyles(parseInt(event.target.value))
+            setStyles(parseInt(event.target.value))
     }
 )
 
